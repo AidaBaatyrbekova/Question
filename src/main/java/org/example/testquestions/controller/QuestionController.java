@@ -3,13 +3,11 @@ package org.example.testquestions.controller;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import org.example.testquestions.entity.TestQuestion;
-import org.example.testquestions.repository.QuestionRepository;
 import org.example.testquestions.service.QuestionService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @NoArgsConstructor
